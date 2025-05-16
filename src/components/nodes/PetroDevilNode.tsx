@@ -30,7 +30,6 @@ export default function PetroDevilNode({ onNext }: { onNext: () => void }) {
           <>
             <blockquote className="ruin-theory">
               “Capitalism produces ruins; yet life persists stubbornly among them.” <br />
-              <span className="theorist">— Anna Tsing</span>
             </blockquote>
 
             <p className="ruin-reasoning">
