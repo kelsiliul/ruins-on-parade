@@ -1,0 +1,105 @@
+.map-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #fffaf0;
+}
+
+.map-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Fills the screen, crops excess */
+  display: block;
+}
+
+
+/* Button styling and placement */
+.start-button {
+  position: absolute;
+  bottom: 40px;
+  /* try 'top: 40px;' if you prefer top */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.start-button:hover {
+  background-color: #e91e63;
+  transform: translateX(-50%) scale(1.05);
+}
+
+.ruin-bg {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ruin-node-content {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.ruin-story {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.ruin-feedback {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1.2rem;
+}
+
+.ruin-theory {
+  font-style: italic;
+  margin-top: 1.5rem;
+  color: #444;
+}
+
+.theorist {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.next-button {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.next-button:hover {
+  background-color: #1976d2;
+}
